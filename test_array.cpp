@@ -3,13 +3,13 @@
 
 int testArrayInit()
 {
-    Array arr(10);
+    Array<int> arr(10);
     return 0;
 }
 
 int testArrayIndex()
 {
-    Array arr(10);
+    Array<int> arr(10);
     arr[3] = 10;
     if (arr[3] != 10)
     {

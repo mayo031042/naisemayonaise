@@ -1,15 +1,16 @@
 
+template <class T>
 class Array
 {
 private:
-    int *a;
+    T *a;
     int length;
 
 public:
     Array(int len)
     {
         length = len;
-        a = new int[length];
+        a = new T[length];
     }
 
     int &operator[](int i)
