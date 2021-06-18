@@ -13,7 +13,7 @@ public:
         a = new T[length];
     }
 
-    int &operator[](int i)
+    T &operator[](int i)
     {
         return a[i];
     }
