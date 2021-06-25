@@ -1,4 +1,4 @@
-#include "array.h"
+#include "Array.h"
 #include <stdio.h>
 
 int testArrayInit()
