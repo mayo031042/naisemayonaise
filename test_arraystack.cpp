@@ -1,4 +1,4 @@
-#include "ArrayStack.h"
+#include "arraystack.h"
 #include <stdio.h>
 
 int testArrayStackInit()
