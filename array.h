@@ -28,8 +28,10 @@ public:
         return a[i];
     }
 
-    Array<T>& operator=(Array<T> &b){
-        if(a!= NULL) delete[] a;
+    Array<T> &operator=(Array<T> &b)
+    {
+        if (a != NULL)
+            delete[] a;
         a = b.a;
         b.a = NULL;
         length = b.length;
